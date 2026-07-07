@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist+Pixel&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Geist Pixel";
+    text-align: center;
+}
+
+body {
+    background: #f2f2f2;
+}
+
+header {
+    background-color: #233D4D;
+    color: white;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+header li {
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    color: #FE7F2D;
+}
+
+section {
+    width: 80%;
+    margin: 25px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.1);
+}
+
+h3 {
+    color: #FE7F2D;
+    margin-bottom: 20px;
+}
+
+#hero {
+    padding: 50px;
+}
+
+#about {
+    padding: 30px;
+}
+
+#skills li {
+    list-style: none;
+    display: inline-block;
+    width: 120px;
+    padding: 15px;
+    margin: 10px;
+    background: #233D4D;
+    color: white;
+    border-radius: 8px;
+}
+
+#projects div {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background: #233D4D;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#projects div:hover {
+    background: #FE7F2D;
+}
+
+#contact a {
+    color: #233D4D;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    color: #FE7F2D;
+}
+
+a {
+    text-decoration: none;
+    color: #FE7F2D;
+}

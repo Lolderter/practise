@@ -19,3 +19,26 @@ function Layout(props) {
 }
 
 export default Layout;
+
+
+function Layoutdis(title,desc) {
+  return (
+    <div
+      style={{
+        border: "1px solid #2c2c2c",
+        borderRadius: "18px",
+        padding: "16px",
+        margin: "16px",
+        backgroundColor: "#4d4747",
+        fontFamily: "Arial, sans-serif",
+        color:"red",
+        fontSize: "1.5em"
+      }}
+    >
+      <h2>Title: {title}</h2>
+      <h3>Desc: {desc}</h3>
+    </div>
+  );
+}
+
+export  {Layoutdis};

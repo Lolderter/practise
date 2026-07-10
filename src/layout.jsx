@@ -8,8 +8,8 @@ function Layout(props) {
         margin: "16px",
         backgroundColor: "#4d4747",
         fontFamily: "Arial, sans-serif",
-        color:"red",
-        fontSize: "1.5em"
+        color: "red",
+        fontSize: "1.5em",
       }}
     >
       <h2>Title: {props.title}</h2>
@@ -20,8 +20,7 @@ function Layout(props) {
 
 export default Layout;
 
-
-function Layoutdis(title,desc) {
+function Layoutdis({ title, desc }) {
   return (
     <div
       style={{
@@ -31,8 +30,8 @@ function Layoutdis(title,desc) {
         margin: "16px",
         backgroundColor: "#4d4747",
         fontFamily: "Arial, sans-serif",
-        color:"red",
-        fontSize: "1.5em"
+        color: "red",
+        fontSize: "1.5em",
       }}
     >
       <h2>Title: {title}</h2>
@@ -41,4 +40,18 @@ function Layoutdis(title,desc) {
   );
 }
 
-export  {Layoutdis};
+export { Layoutdis };
+
+function FruitList(props) {
+  return (
+    <div>
+      <ul>
+        {props.items.map((fruit, index) => (
+          <li key={index}>{fruit}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+export { FruitList };

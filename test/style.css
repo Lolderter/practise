@@ -1,0 +1,63 @@
+
+body {
+    margin: 0px;
+    
+}
+
+
+main {
+    display: flex;
+}
+
+
+section {
+    width: 75%;
+}
+
+aside {
+    width: 20%;
+}
+
+li{
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    text-align: center;
+   
+}
+
+header {
+background-color: lightblue;
+
+}
+
+nav,footer {
+    background-color: gray;
+}
+h2,h3 {
+    margin: 0;
+}
+
+section,aside {
+    background-color: aliceblue;
+    margin: 8px;
+    box-shadow:  0 0 10px 0 rgba(0, 0, 0, 0.3);
+    
+    
+}
+
+p{
+    margin: 0;
+}
+
+nav, footer {
+    color:white;
+
+}
+footer {
+ height: 35px;
+}
+
+
